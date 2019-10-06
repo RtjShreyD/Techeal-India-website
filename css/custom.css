@@ -1,0 +1,19 @@
+.header_area .navbar {
+    background-color: white;
+}
+
+li.active > a.nav-link {
+    color: black !important;
+    opacity: 1 !important;
+}
+
+li > a.nav-link {
+    color: #22195b !important;
+    opacity: 0.8 !important;
+}
+
+.header_area .navbar-right .nav-item .button
+{
+    color: rgb(0, 238, 255) !important;
+    background-color: rgb(78, 3, 148) !important;
+}
