@@ -1,5 +1,6 @@
 .header_area .navbar {
     background-color: white;
+    height: 100px !important;
 }
 
 li.active > a.nav-link {
