@@ -28,17 +28,28 @@
 .pad-img
 {
     padding: 1em;
-    height: 10em;
+    height: 7em;
 }
 
-/*.....Generic Styles end..........*/
-
-
-li.active > a.nav-link 
+.card-custom
 {
-    color: black !important;
-    opacity: 1 !important;
+    margin: 2%;
+    background-color: #7e74c5;
 }
+
+.card-inner
+{
+    overflow: hidden;
+}
+
+.card-inner img{
+    transition: all 1.5s ease;
+}
+ 
+.card-inner:hover img{
+    transform: scale(1.5);
+}
+/*.....Generic Styles end..........*/
 
 li > a.nav-link 
 {
