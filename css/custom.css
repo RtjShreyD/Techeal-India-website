@@ -20,9 +20,9 @@
     padding: 1em;
 }
 
-.heading-pad
+.car-pad
 {
-    padding: 1em;
+    padding: 2em;
 }
 
 .pad-img
@@ -34,7 +34,7 @@
 .card-custom
 {
     margin: 2%;
-    background-color: #7e74c5;
+    /*background-color: #7e74c5;*/
 }
 
 .card-inner
@@ -46,9 +46,37 @@
     transition: all 1.5s ease;
 }
  
-.card-inner:hover img{
+.card-inner:hover img
+{
     transform: scale(1.5);
 }
+
+.font-custom
+{
+    font-style: italic;
+    font-size:1vw;
+    font-weight: bold;
+    color: #22195b;
+}
+
+.font-title-custom
+{
+    font-style: normal;
+    font: size 2vw;
+    font-weight: bold;
+    color: #070129;
+}
+
+.container-height
+{
+    height: 18em;
+}
+
+.mrgn
+{
+    margin-bottom: -5em;
+}
+
 /*.....Generic Styles end..........*/
 
 li > a.nav-link 
